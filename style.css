@@ -63,6 +63,13 @@ body {
     font-weight: bold;
 }
 
+/*追加設定*/
+#phone-number a {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+}
+
 /*着信設定*/
 a[href^="tel:"] {
     cursor: default;
