@@ -72,7 +72,7 @@ body {
 }
 
 /*着信設定*/
-.phine-number a[href^="tel:"] {
+a[href^="tel:"] {
     cursor: default;
 }
 
