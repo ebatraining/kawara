@@ -384,10 +384,6 @@ div.balloon:before {
         font-weight: bold;
     }
 
-    #phone-number a before {
-        content: "&#x1F57B;";
-    }
-
     /* topへ戻る */
     #pageTop {
         position: fixed;
@@ -446,18 +442,12 @@ div.balloon:before {
 
 
     /*追加設定*/
-    #phone-number a {
+    #phone-number a before {
         pointer-events: initial;
         cursor: initial;
         text-decoration: initial;
+        content: "&#x1F57B;";
     }
-
-    /*着信設定*/
-    /*
-    a[href^="tel:"] {
-        cursor: initial;
-    }
-*/
 
     /* タイトル */
     .title {
