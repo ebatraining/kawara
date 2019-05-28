@@ -449,9 +449,9 @@ div.balloon:before {
         padding: 0.25em 0.5em;
         text-decoration: none;
         color: #FFF;
-        background: #fd9535;
+        background: #8cc63f;
         /*背景色*/
-        border-bottom: solid 2px #d27d00;
+        border-bottom: solid 2px #538412;
         /*少し濃い目の色に*/
         border-radius: 4px;
         /*角の丸み*/
@@ -460,7 +460,7 @@ div.balloon:before {
     }
 
     .phone-number p:active {
-        border-bottom: solid 2px #fd9535;
+        border-bottom: solid 2px #8cc63f;
         box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
     }
 
