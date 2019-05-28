@@ -440,13 +440,15 @@ div.balloon:before {
         text-align: center;
     }
 
+    .phone-number p before {
+        content: "&#x1F57B;";
+    }
 
     /*追加設定*/
-    #phone-number a before {
+    #phone-number a {
         pointer-events: initial;
         cursor: initial;
         text-decoration: initial;
-        content: "&#x1F57B;";
     }
 
     /* タイトル */
