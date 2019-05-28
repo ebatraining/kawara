@@ -370,7 +370,7 @@ div.balloon:before {
         font-weight: bold;
     }
 
-    #phone-number a {
+    .phone-number-a {
         color: #ffffff;
         text-decoration: none;
     }
