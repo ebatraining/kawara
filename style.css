@@ -370,6 +370,10 @@ div.balloon:before {
         font-weight: bold;
     }
 
+    a[href^="tel:"] {
+        pointer-events: none;
+    }
+
     /* topへ戻る */
     #pageTop {
         position: fixed;
