@@ -218,10 +218,13 @@ div.balloon:before {
 
 .skill-title {
     color: #fff;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .skill-text {
     color: #4d4d4d;
+    font-weight: 600;
 }
 
 
