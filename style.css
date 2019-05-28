@@ -63,6 +63,10 @@ body {
     font-weight: bold;
 }
 
+a[href^="tel:"] {
+    pointer-events: none;
+}
+
 /* タイトル */
 .title {
     max-width: 50%;
@@ -368,10 +372,6 @@ div.balloon:before {
     #phone-number {
         font-size: 2.25rem;
         font-weight: bold;
-    }
-
-    a[href^="tel:"] {
-        pointer-events: none;
     }
 
     /* topへ戻る */
