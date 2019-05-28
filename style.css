@@ -432,9 +432,12 @@ div.balloon:before {
         text-align: center;
     }
 
+    /*着信設定*/
+    /*
     a[href^="tel:"] {
         cursor: initial;
     }
+*/
 
     /* タイトル */
     .title {
