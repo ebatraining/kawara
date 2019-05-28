@@ -438,6 +438,10 @@ div.balloon:before {
         width: 100%;
         float: none;
         text-align: center;
+        /*スマホ画面　ボタン*/
+        background: linear-gradient(#05FBFF, #1E00FF);
+        border-radius: 10px;
+        padding: 2px;
     }
 
     /*追加設定*/
