@@ -224,7 +224,7 @@ div.balloon:before {
 
 .skill-text {
     color: #4d4d4d;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
 }
 
@@ -242,6 +242,7 @@ div.balloon:before {
 }
 
 .about p {
+    font-size: 15px;
     margin-bottom: 30px;
 }
 
