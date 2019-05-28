@@ -64,9 +64,11 @@ body {
     pointer-events: none;
 }
 
+/*着信設定*/
+/*
 a[href^="tel:"] {
     pointer-events: none;
-}
+}*/
 
 /* タイトル */
 .title {
