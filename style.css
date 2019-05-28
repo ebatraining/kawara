@@ -434,13 +434,10 @@ div.balloon:before {
         font-size: 1.2rem;
     }
 
-    .phone-number p {
+    .phone-number p before {
         width: 100%;
         float: none;
         text-align: center;
-    }
-
-    .phone-number p before {
         content: "&#x1F57B;";
     }
 
