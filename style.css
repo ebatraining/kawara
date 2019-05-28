@@ -370,6 +370,11 @@ div.balloon:before {
         font-weight: bold;
     }
 
+    a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
     /* topへ戻る */
     #pageTop {
         position: fixed;
