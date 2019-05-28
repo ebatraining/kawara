@@ -120,7 +120,7 @@ a[href^="tel:"] {
 
 div.balloon {
     background: #00a99d;
-    dispay: inline-block;
+    display: inline-block;
     position: relative;
     width: 100%;
     height: 60px;
@@ -404,7 +404,7 @@ div.balloon:before {
 
 
 /* ##########スマートフォン・タブレット対応########## */
-@media (max-width: 768px) {
+@media (max-device-width: 768px) {
     .site-title {
         height: 30px;
         width: 100%;
