@@ -444,6 +444,10 @@ div.balloon:before {
         border-radius: 10px;
         padding: 2px;
 */
+
+    }
+
+    .button-color {
         position: relative;
         display: inline-block;
         padding: 0.25em 0.5em;
@@ -459,7 +463,7 @@ div.balloon:before {
         font-weight: bold;
     }
 
-    .phone-number p:active {
+    .button-color:active {
         border-bottom: solid 2px #8cc63f;
         box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
     }
