@@ -65,6 +65,7 @@ body {
 
 /*追加設定*/
 #phone-number a {
+    color: #4D4D4D;
     pointer-events: none;
     cursor: default;
     text-decoration: none;
