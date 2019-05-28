@@ -383,14 +383,6 @@ div.balloon:before {
         font-weight: bold;
     }
 
-    /*追加設定*/
-    #phone-number a {
-        pointer-events: initial;
-        cursor: initial;
-        text-decoration: initial;
-    }
-
-
     /* topへ戻る */
     #pageTop {
         position: fixed;
@@ -445,6 +437,14 @@ div.balloon:before {
         width: 100%;
         float: none;
         text-align: center;
+    }
+
+
+    /*追加設定*/
+    #phone-number a {
+        pointer-events: initial;
+        cursor: initial;
+        text-decoration: initial;
     }
 
     /*着信設定*/
