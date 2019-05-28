@@ -439,7 +439,7 @@ div.balloon:before {
         float: none;
         text-align: center;
         /*スマホ画面　ボタン*/
-        background: linear-gradient(#8cc63f, #5f872b);
+        background: linear-gradient(#b3ff4f, #8cc63f);
         border-radius: 10px;
         padding: 2px;
     }
