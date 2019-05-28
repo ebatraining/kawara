@@ -384,6 +384,10 @@ div.balloon:before {
         font-weight: bold;
     }
 
+    #phone-number a before {
+        content: "&#x1F57B;";
+    }
+
     /* topへ戻る */
     #pageTop {
         position: fixed;
