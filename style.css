@@ -370,11 +370,6 @@ div.balloon:before {
         font-weight: bold;
     }
 
-    .phone-number-a {
-        color: #0000EE;
-        text-decoration: none;
-    }
-
     /* topへ戻る */
     #pageTop {
         position: fixed;
