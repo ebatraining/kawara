@@ -384,6 +384,11 @@ div.balloon:before {
         font-weight: bold;
     }
 
+    a[href^="tel:"] {
+    cursor: none;
+}
+
+    
     /* topへ戻る */
     #pageTop {
         position: fixed;
