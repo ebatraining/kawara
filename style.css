@@ -72,18 +72,17 @@ body {
 }
 
 /*着信設定*/
-.tel a [href^="tel:"] {
+/*
+a [href^="tel:"] {
     pointer-events: none;
     cursor: default;
 }
-/*
-PC画面時tel無効設定
-@media screen and (max-width: 768px){
-  .tel  a [href^="tel:"] {
-        pointer-events: auto;
-    }
-}
 */
+
+/*着信設定*/
+.tel {
+    pointer-events: none;
+}
 
 /* タイトル */
 .title {
@@ -474,6 +473,11 @@ div.balloon:before {
         pointer-events: initial;
         cursor: initial;
         text-decoration: initial;
+    }
+    
+/*着信設定*/
+    .tel {
+        pointer-events: inherit;
     }
 
     /* タイトル */
