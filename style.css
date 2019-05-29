@@ -72,9 +72,11 @@ body {
 }
 
 /*着信設定*/
+/*
 a[href^="tel:"] {
     cursor: none;
 }
+*/
 
 /* タイトル */
 .title {
