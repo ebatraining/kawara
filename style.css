@@ -121,6 +121,10 @@ a [href^="tel:"] {
         border-radius: 10px;
 }
 
+.coment-font {
+    font-weight: 600;
+}
+
 /* bluesheet */
 #balloon {
     width: 100%;
@@ -191,6 +195,8 @@ div.balloon:before {
     font-size: 2rem;
     line-height: 2.5rem;
     color: #00a99d;
+     /*角丸*/
+    border-radius: 10px;
 }
 
 .bluesheet-box p img {
@@ -578,6 +584,8 @@ div.balloon:before {
         font-size: 2rem;
         line-height: 2.5rem;
         color: #00a99d;
+        /*角丸*/
+        border-radius: 10px;
     }
 
     .bluesheet-box p img {
