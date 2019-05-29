@@ -53,7 +53,7 @@ body {
 }
 
 .phone-number p {
-    width: 19%;
+    width: 21%;
     float: right;
     color: #4D4D4D;
 }
@@ -117,6 +117,8 @@ a [href^="tel:"] {
     background-color: #8cc63f;
     line-height: 50px;
     clear: both;
+     /*角丸*/
+        border-radius: 10px;
 }
 
 /* bluesheet */
@@ -132,6 +134,8 @@ a [href^="tel:"] {
     font-size: 3rem;
     padding-top: 10px;
     color: #fff;
+     /*角丸*/
+        border-radius: 10px;
 }
 
 div.balloon {
@@ -171,12 +175,11 @@ div.balloon:before {
 .bluesheet-wrapper {
     display: table;
     width: 100%;
-    table-layout: fixed;
+    table-layout: fixed; 
 }
 
 .bluesheet-box {
     display: table-cell;
-
 }
 
 .bluesheet-box p {
@@ -390,7 +393,7 @@ div.balloon:before {
 
     .phone-number p {
         width: 27%;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         padding-right: 5px;
         text-align: right;
     }
@@ -523,6 +526,8 @@ div.balloon:before {
         line-height: 30px;
         padding-top: 2px;
         clear: both;
+        /*角丸*/
+        border-radius: 10px;
     }
 
     /* bluesheet */
@@ -535,6 +540,8 @@ div.balloon:before {
 
     .balloon p {
         font-size: 2rem;
+        /*角丸*/
+        border-radius: 10px;
     }
 
     div.balloon {
@@ -558,7 +565,7 @@ div.balloon:before {
     }
 
     .bluesheet-wrapper {
-        margin-top: 120px;
+        margin-top: 140px;
     }
 
 
