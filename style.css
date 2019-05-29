@@ -72,7 +72,7 @@ body {
 }
 
 /*着信設定*/
-.number-link a[href^="tel:"] {
+.tel [href^="tel:"] {
     cursor: none;
 }
 
@@ -384,11 +384,6 @@ div.balloon:before {
         font-weight: bold;
     }
 
-    a[href^="tel:"] {
-    cursor: none;
-}
-
-    
     /* topへ戻る */
     #pageTop {
         position: fixed;
