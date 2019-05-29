@@ -228,6 +228,7 @@ div.balloon:before {
 .skill-box {
     display: table-cell;
     text-align: center;
+    padding: 10px;
     /*枠線*/
      background: #afef5b;
     border: dashed 2px #8cc63f;
