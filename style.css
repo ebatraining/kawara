@@ -86,6 +86,38 @@ a [href^="tel:"] {
     pointer-events: none;
 }
 
+/*boutton*/
+#button-c{
+    display: flex;
+    justify-content: center;
+}
+
+.button-d {
+    
+}
+
+.button-s {
+    color: #333;
+    margin: 0 auto;
+/*button設定*/
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-left: solid 4px #00A99D;
+  border-right: solid 4px #00A99D;
+  color: #00A99D;
+  background: #fff;
+  transition: .4s;
+}
+
+.button-s:active {
+  /*ボタンを押したとき*/
+  background: #00A99D;
+  color: #FFF;
+}
+
 /* タイトル */
 .title {
     max-width: 50%;
@@ -93,7 +125,7 @@ a [href^="tel:"] {
 }
 
 .title p img {
-    width: 100%;
+    width: 70%;
     height: auto;
 }
 
@@ -472,6 +504,11 @@ div.balloon:before {
         padding: 5px 5px;
         line-height: 2rem;
         font-size: 1.2rem;
+    }
+    
+/*button設定*/
+   h2 .button-s　{
+    padding: 0.5em 0;
     }
 
     .phone-number p {
