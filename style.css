@@ -626,6 +626,11 @@ div.balloon:before {
         color: #8cc63f;
     }
 
+    /*スマホ版テキスト*/
+    .font {
+        font-size: 13px;
+    }
+    
     /* skills */
     .skills-wrapper,
     .skill-box {
@@ -648,7 +653,7 @@ div.balloon:before {
     }
 
     .skill-text {
-        font-size: 1.1rem;
+        font-size: 1.5rem;
         margin-bottom: 20px;
         color: #333;
     }
