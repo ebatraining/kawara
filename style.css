@@ -72,7 +72,7 @@ body {
 }
 
 /*着信設定*/
-#phone-number a[href^="tel:"] {
+p a[href^="tel:"] {
     cursor: none;
 }
 
