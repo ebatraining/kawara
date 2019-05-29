@@ -207,6 +207,7 @@ div.balloon:before {
 .font {
     font-size: 20px;
     color: #8cc63f;
+    font-weight: 600;
 }
 
 /* skills */
