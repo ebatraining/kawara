@@ -72,16 +72,18 @@ body {
 }
 
 /*着信設定*/
-a [href^="tel:"] {
+.tel a [href^="tel:"] {
     pointer-events: none;
     cursor: default;
 }
-/*PC画面時tel無効設定*/
+/*
+PC画面時tel無効設定
 @media screen and (max-width: 768px){
-    a [href^="tel:"] {
+  .tel  a [href^="tel:"] {
         pointer-events: auto;
     }
 }
+*/
 
 /* タイトル */
 .title {
