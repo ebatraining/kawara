@@ -72,7 +72,7 @@ body {
 }
 
 /*着信設定*/
-#phune-number .tel p [href^="tel:"] {
+a [href^="tel:"] {
     pointer-events: none;
 }
 
