@@ -438,7 +438,7 @@ div.balloon:before {
         width: 100%;
         float: none;
         text-align: center;
-        /*スマホ画面　ボタン*/
+        /*追加設定 スマホ画面　ボタン*/
         position: relative;
         display: inline-block;
         padding: 0.25em 0.5em;
