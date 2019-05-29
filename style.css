@@ -8,6 +8,8 @@ html {
     position: relative;
     /* Fix for absolute positioning */
     box-sizing: border-box;
+    /*影*/
+/*    box-shadow: 0 2px 4px gray;*/
 }
 
 *,
@@ -119,6 +121,8 @@ a [href^="tel:"] {
     clear: both;
      /*角丸*/
         border-radius: 10px;
+    /*影w*/
+    box-shadow: 0 2px 4px gray;
 }
 
 .coment-font {
@@ -150,6 +154,8 @@ div.balloon {
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     border-radius: 3px;
+     /*影*/
+    box-shadow: 0 2px 4px gray;
 }
 
 div.balloon:before {
@@ -197,6 +203,8 @@ div.balloon:before {
     color: #00a99d;
      /*角丸*/
     border-radius: 10px;
+    /*影*/
+    box-shadow: 0 2px 4px grey;
 }
 
 .bluesheet-box p img {
@@ -214,6 +222,7 @@ div.balloon:before {
     font-size: 18px;
     line-height: 3rem;
     margin-top: 40px;
+    color: #333;
 }
 
 .font {
@@ -231,7 +240,10 @@ div.balloon:before {
     text-align: center;
     background-color: #8cc63f;
     padding: 10px;
+    /*角丸*/
     border-radius: 10px;
+    /*影*/
+    box-shadow: 0 2px 4px gray;
 }
 
 .skill-box {
@@ -262,7 +274,7 @@ div.balloon:before {
 }
 
 .skill-text {
-    color: #4d4d4d;
+    color: #333;
 }
 
 
@@ -281,6 +293,7 @@ div.balloon:before {
 .about p {
     font-size: 15px;
     margin-bottom: 30px;
+    color: #333;
 }
 
 /* お問い合わせ */
@@ -298,6 +311,8 @@ div.balloon:before {
     font-weight: bold;
     text-align: center;
     text-decoration: none;
+    /*影*/
+    box-shadow: 0 2px 4px gray;
 }
 
 .button::after {
@@ -603,6 +618,7 @@ div.balloon:before {
         font-size: 15px;
         line-height: 2.7rem;
         margin-bottom: -40px;
+        color: #333;
     }
 
     #works {
@@ -634,6 +650,7 @@ div.balloon:before {
     .skill-text {
         font-size: 1.1rem;
         margin-bottom: 20px;
+        color: #333;
     }
 
 
