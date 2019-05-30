@@ -87,9 +87,10 @@ a [href^="tel:"] {
 }
 
 /*boutton*/
-#button-c{
+#button-c {
     display: flex;
     justify-content: left;
+    margin-bottom: 10px;
 }
 
 .button-color {
