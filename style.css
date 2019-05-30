@@ -92,6 +92,10 @@ a [href^="tel:"] {
     justify-content: left;
 }
 
+.button-color {
+    color: #fff;
+}
+
 .button-s {
     color: #333;
     margin: 0 auto;
@@ -113,6 +117,9 @@ a [href^="tel:"] {
   border-bottom: solid 2px #00AA99;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
 }
+
+/*button青線*/
+
 
 /* タイトル */
 .title {
