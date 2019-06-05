@@ -19,17 +19,24 @@
         });
 
     </script>
-    <!--着信設定-->
+
+    <!--スクロール-->
     <script>
-        var ua = navigator.userAgent.toLowerCase();
-        var isMobile = /iphone/.test(ua) || /android(.+)?mobile/.test(ua);
-        if (!isMobile) {
-            $('a[href^="tel:"]').on('click', function(e) {
-                e.preventDefault();
+        $(function() {
+            $('a[href^="#"]').click(function() {
+                var speed = 500;
+                var href = $(this).attr("href");
+                var target = $(href == "#" || href == "" ? 'html' : href);
+                var position = target.offset().top;
+                $("html, body").animate({
+                    scrollTop: position
+                }, speed, "swing");
+                return false;
             });
-        }
+        });
 
     </script>
+
 </head>
 
 <body>
@@ -42,9 +49,18 @@
             <p>NT企画では、震災復興事業に取り組んでおります。</p>
         </div>
         <div class="phone-number">
-            <a class="number-link" href="tel:090-5722-5997">
-                <p>お気軽にお問い合わせ下さい<br><span id="phone-number">090-5722-5997</span></p>
-            </a>
+            <div class="tel">
+                <a href="tel:090-5722-5977">
+                    <p>お気軽にお問い合わせ下さい<br><span id="phone-number">&#9742;:090-5722-5977</span></p>
+                </a>
+            </div>
+        </div>
+        <div id="button-c">
+            <div class="button-d">
+                <h2 class="button-s">HOME</h2>
+                <h2 class="button-s"><a class="button-color" href="#page-work" style="text-decoration:none;">業務内容</a></h2>
+                <h2 class="button-s"><a class="button-color" href="#pagebuttom" style="text-decoration:none;">お見積り</a></h2>
+            </div>
         </div>
     </header>
 
@@ -56,27 +72,29 @@
 
     <section class="slideshow">
         <ul class="bxslider">
-            <li><img title="サムネ" art="" src="img/mainvisual.jpg"></li>
-            <li><img title="水滴" alt="" src="img/img1.jpg" /></li>
-            <li><img title="傘" alt="" src="img/img2.jpg" /></li>
-            <li><img title="カメラと男性" alt="" src="img/img3.jpg" /></li>
+            <!--サムネイル追加-->
+            <li><img title="屋根" art="" src="img/img2.jpg"></li>
+            <li><img title="水滴" alt="" src="img/img4.jpg" /></li>
         </ul>
     </section>
 
+    <div id="balloon"></div>
+
     <section class="coment">
-        <p>あなたの瓦をスピード補修！最短一ヶ月以内に工事完了！</p>
+        <p>あなたの瓦をスピード補修！<span class="coment-font">最短一ヶ月以内</span>に工事完了！</p>
     </section>
 
     <section class="bluesheet">
-        <div id="balloon">
-            <div class="balloon">
+        <div class="balloon">
+            <div id="page-work">
                 <p>台風前にお屋根の補修</p>
             </div>
         </div>
     </section>
 
     <section class="bluesheet-coment">
-        <p>台風シーズン到来！ブルーシートでは危険！</p>
+        <!--テキスト調整-->
+        <p class="text-br"><span class="font-b">台風</span>シーズン到来！<span class="font-b">ブルーシート</span>では<span class="font-b">危険！</span></p>
     </section>
 
     <section class="bluesheet-wrapper">
@@ -128,8 +146,6 @@
                 </p>
             </div>
         </div>
-        </div>
-
     </section>
 
     <section class="about">
@@ -138,7 +154,9 @@
     </section>
 
     <section class="contact">
-        <a class="button" href="mail/mail.html">お問い合わせはコチラ</a>
+        <div id="pagebuttom">
+            <a class="button" href="mail/mail.html">お問い合わせはコチラ</a>
+        </div>
     </section>
 
     <p id="pageTop"><a href="#"><i class="fa fa-chevron-up"> </i></a></p>
@@ -146,7 +164,7 @@
     <footer class="footer">
         <p class="company">NT企画</p>
         <p class="address">住所：熊本県上益城郡嘉島町鯰</p>
-        <p class="tell">tel.090-5722-5997</p>
+        <p class="tell">tel.090-5722-5977</p>
     </footer>
 
     <script>
